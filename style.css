@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 25%;
+  position: absolute;
+  margin-left: -28%;
+  margin-top: -4%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 0, 0, 0.776);
+  position: relative;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+  gap: 1fr;
+  position: relative;
+}
+
+.name {
+  font-size: 18px;
+  display: flex;
+  padding-top: 20%;
+  margin-top: 5%;
+}
+
+.change {
+  display: flex;
+  justify-content: center;
+}
+.currency {
+  position: absolute;
+  margin-top: -33%;
+  margin-left: 55%;
+  color: rgb(9, 90, 9);
+}
